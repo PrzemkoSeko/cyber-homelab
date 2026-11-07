@@ -33,14 +33,8 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 
 ## Hardware (planned)
 
-| Part | Spec |
-|---|---|
-| Machine | Dell OptiPlex 3060 MT |
-| CPU | Intel Core i5-8500 |
-| RAM | 16 GB |
-| SSD | 256 GB (Proxmox and VMs) |
-| HDD | 1 TB (photos) |
-| Backup | External HDD, encrypted, plugged in only during backups |
+Dell OptiPlex 3060 MT, i5-8500, 16 GB RAM, 256 GB SSD + 1 TB HDD.
+Full setup: [docs/hardware.md](docs/hardware.md)
 
 ## Security approach
 

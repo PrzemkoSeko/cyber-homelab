@@ -35,7 +35,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 
 | Part | Spec |
 |---|---|
-| Machine | Dell OptiPlex 3060 SFF |
+| Machine | Dell OptiPlex 3060 MT |
 | CPU | Intel Core i5-8500 |
 | RAM | 16 GB |
 | SSD | 256 GB (Proxmox and VMs) |

@@ -1,10 +1,31 @@
-## Hardware
+# Hardware
 
-| Part | Spec |
+## Main server
+
+| Part | Details |
 |---|---|
-| Machine | Dell OptiPlex 3060 MT |
-| CPU | Intel Core i5-8500 |
-| RAM | 16 GB DDR4 |
-| SSD | 256 GB (Proxmox and VMs) |
-| HDD | 1 TB |
-| Backup | External HDD, encrypted, plugged in only during backups |
+| Model | Dell OptiPlex 3060 SFF |
+| CPU | Intel Core i5-8500 (6 cores) |
+| RAM | 16 GB (2x8 GB, dual-channel) |
+| SSD | 256 GB, used for Proxmox and VMs |
+| HDD | 1 TB, 3.5", used for photos |
+| BIOS version | (fill in after checking) |
+
+## Backup
+
+| Part | Details |
+|---|---|
+| External HDD | Seagate Expansion Portable 2TB USB 3.0 Gen. 1 |
+| Encryption | LUKS |
+
+## Health checks (after delivery)
+
+- [ ] SSD SMART check
+- [ ] HDD SMART check
+- [ ] RAM test (MemTest86, one full pass)
+- [ ] BIOS updated
+- [ ] Virtualization (VT-x / VT-d) enabled
+
+## Changes and upgrades
+
+- 10 Nov 2026: Bought the machine

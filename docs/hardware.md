@@ -4,7 +4,7 @@
 
 | Part | Details |
 |---|---|
-| Model | Dell OptiPlex 3060 SFF |
+| Model | Dell OptiPlex 3060 MT |
 | CPU | Intel Core i5-8500 (6 cores) |
 | RAM | 16 GB (2x8 GB, dual-channel) |
 | SSD | 256 GB, used for Proxmox and VMs |

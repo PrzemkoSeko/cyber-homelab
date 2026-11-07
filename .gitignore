@@ -1,0 +1,38 @@
+# Secrets: never commit these
+.env
+*.env
+!.env.example
+*.key
+*.pem
+*.crt
+*.pfx
+*.kdbx
+id_rsa*
+id_ed25519*
+secrets/
+*.secret
+
+# Backups and dumps (may contain private data)
+*.sql
+*.sql.gz
+*.dump
+*.bak
+backups/
+
+# Large VM and disk images
+*.iso
+*.ova
+*.qcow2
+*.vmdk
+*.vdi
+
+# Raw captures and logs (can include real IPs or credentials)
+*.pcap
+*.pcapng
+*.log
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

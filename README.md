@@ -34,6 +34,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 ## Hardware (planned)
 
 Dell OptiPlex 3060 MT, i5-8500, 16 GB RAM, 256 GB SSD + 1 TB HDD.
+
 Full setup: [docs/hardware.md](docs/hardware.md)
 
 ## Security approach

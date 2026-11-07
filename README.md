@@ -1,4 +1,4 @@
-# Cyber-homelab
+# Cyber-Homelab
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 

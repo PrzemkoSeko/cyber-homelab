@@ -6,5 +6,5 @@
 | CPU | Intel Core i5-8500 |
 | RAM | 16 GB DDR4 |
 | SSD | 256 GB (Proxmox and VMs) |
-| HDD | 1 TB (photos) |
+| HDD | 1 TB |
 | Backup | External HDD, encrypted, plugged in only during backups |

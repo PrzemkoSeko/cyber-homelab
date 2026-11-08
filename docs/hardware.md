@@ -6,7 +6,7 @@
 |---|---|
 | Model | Dell OptiPlex 3060 MT |
 | CPU | Intel Core i5-8500 (6 cores) |
-| RAM | 16 GB (to confirm: 2x8 GB, dual-channel) |
+| RAM | 16 GB DDR4 (to confirm: 2x8 GB, dual-channel) |
 | SSD | 256 GB, used for Proxmox and VMs |
 | HDD | 1 TB, 3.5", used for photos |
 | BIOS version | (fill in after checking) |

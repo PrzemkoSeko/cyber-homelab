@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Planning. I'm buying the hardware soon, so nothing here is built yet.
+> **Status:** Hardware bought, waiting for delivery. 
 
 ## Plan
 
@@ -14,7 +14,8 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 ## Progress
 
 **Photo server**
-- [ ] Buy the hardware and check it (drive health, RAM test, BIOS)
+- [X] Buy the hardware
+- [ ] Check the hardware (drive health, RAM test, BIOS)
 - [ ] Install Proxmox
 - [ ] Run Immich in a VM with Docker
 - [ ] Set up Tailscale for remote access (no router ports opened)

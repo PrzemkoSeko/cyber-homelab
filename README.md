@@ -32,7 +32,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 - [ ] Add Wazuh and collect logs
 - [ ] Run a simple attack and write down how it was detected
 
-## Hardware (planned)
+## Hardware
 
 Dell OptiPlex 3060 MT, i5-8500, 16 GB RAM, 256 GB SSD + 1 TB HDD.
 

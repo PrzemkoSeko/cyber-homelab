@@ -1,6 +1,6 @@
 # Hardware
 
-## Main server (planned purchase)
+## Main server
 
 | Part | Details |
 |---|---|
@@ -28,4 +28,4 @@
 
 ## Changes and upgrades
 
-Nothing yet. I'll add an entry when I buy the machine.
+- 10 Nov 2026: Bought the machine

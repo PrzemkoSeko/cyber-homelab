@@ -47,5 +47,3 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 ## Notes
 
 - 13 Nov 2026: Hardware arrived and passed health checks. [Details in hardware.md](docs/hardware.md)
-
-*Nothing yet.*

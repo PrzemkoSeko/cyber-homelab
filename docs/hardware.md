@@ -26,7 +26,8 @@
 - [X] HDD SMART check
 - [X] RAM test (MemTest86, one full pass)
 
-Results: both drives report Good in CrystalDiskInfo (HDD reallocated, pending and uncorrectable sectors all 0). RAM passed one full MemTest86 pass.
+Results: both drives report Good in CrystalDiskInfo (HDD reallocated, pending and uncorrectable 
+sectors all 0). RAM passed one full MemTest86 pass.
 
 ## Changes and upgrades
 

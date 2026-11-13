@@ -46,6 +46,6 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 
 ## Notes
 
-I'll write up each step here, including the mistakes. Entries will be added as I go.
+- 13 Nov 2026: Hardware arrived and passed health checks. [Details in hardware.md](docs/hardware.md)
 
 *Nothing yet.*

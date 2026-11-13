@@ -6,26 +6,29 @@
 |---|---|
 | Model | Dell OptiPlex 3060 MT |
 | CPU | Intel Core i5-8500 (6 cores) |
-| RAM | 16 GB DDR4 (to confirm: 2x8 GB, dual-channel) |
-| SSD | 256 GB, used for Proxmox and VMs |
-| HDD | 1 TB, 3.5", used for photos |
-| BIOS version | (fill in after checking) |
+| RAM | 16 GB DDR4 (2x8 Dual-Channel) |
+| SSD M.2 | 256 GB ADATA, used for Proxmox and VMs |
+| HDD | 1 TB Seagate, used for photos |
+| BIOS version | 1.2.22 |
 
 ## Backup
 
 | Part | Details |
 |---|---|
-| External HDD | Seagate Expansion Portable 2TB USB 3.0 Gen. 1 |
+| External HDD | Seagate Expansion Portable 2TB USB 3.0 Gen. 1 (planned) |
 | Encryption | LUKS (planned) |
 
-## Health checks (after delivery)
+## Health checks
 
-- [ ] SSD SMART check
-- [ ] HDD SMART check
-- [ ] RAM test (MemTest86, one full pass) 
-- [ ] BIOS updated
-- [ ] Virtualization (VT-x / VT-d) enabled
+- [X] BIOS updated
+- [X] Virtualization (VT-x / VT-d) enabled
+- [X] SSD SMART check
+- [X] HDD SMART check
+- [X] RAM test (MemTest86, one full pass)
+
+Results: both drives report Good in CrystalDiskInfo (HDD reallocated, pending and uncorrectable sectors all 0). RAM passed one full MemTest86 pass.
 
 ## Changes and upgrades
 
 - 10 Nov 2026: Bought the machine
+- 13 Nov 2026: Machine arrived and health checks completed

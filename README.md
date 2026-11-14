@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Hardware checked, ready for Proxmox install
+> **Status:** Proxmox installed and updated, next: Immich
 
 ## Plan
 
@@ -16,7 +16,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 **Photo server**
 - [X] Buy the hardware
 - [X] Check the hardware (drive health, RAM test, BIOS)
-- [ ] Install Proxmox
+- [X] Install Proxmox
 - [ ] Run Immich in a VM with Docker
 - [ ] Set up Tailscale for remote access (no router ports opened)
 - [ ] Set up encrypted backups to an external drive
@@ -47,3 +47,4 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 ## Notes
 
 - 13 Nov 2026: Hardware arrived and passed health checks. [Details in hardware.md](docs/hardware.md)
+- 14 Nov 2026: Installed Proxmox VE on the SSD and switched to the no-subscription repository. Updated the system. First refresh failed with an error because the enterprise repository needs a paid subscription.

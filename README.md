@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Run Immich in a VM with Docker
+> **Status:** Immich running on the local network. Next: Tailscale for remote access, then encrypted backups.
 
 ## Plan
 

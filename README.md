@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Immich running, reachable remotely through Tailscale. Next: encrypted backups and a restore test.
+> **Status:** Immich running and reachable remotely through Tailscale, with a second user. Next: encrypted backups. Until they work, original photos stay on the phones.
 
 ## Plan
 
@@ -19,6 +19,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 - [X] Install Proxmox
 - [X] Run Immich in a VM with Docker
 - [X] Set up Tailscale for remote access (no router ports opened)
+- [x] Give a second user access (non-admin account, only the Immich machine shared)
 - [ ] Set up encrypted backups to an external drive
 - [ ] Test restoring a backup
 - [ ] Write a short note on how I secured it
@@ -50,4 +51,10 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 - 14 Nov 2026: [Installing and securing Proxmox](docs/proxmox-install.md)
 - 15 Nov 2026: [Preparing the Immich VM](docs/immich-vm.md)
 - 15 Nov 2026: Immich running in Docker Compose. Database on the SSD, photo library on the HDD disk.
-- 15 Nov 2026: Tailscale installed on the Immich VM only (not on Proxmox). Tested access from my phone over mobile data with no router ports opened.
+- 15 Nov 2026: Tailscale installed on the Immich VM only (not on Proxmox), tested from a phone over mobile data. A second user got her own Immich account and access to the Immich machine only, with no router ports opened.
+
+## Current limitations
+
+- No backup of the photo library yet (planned: encrypted external drive)
+- Immich is served over HTTP, but only through Tailscale's encrypted tunnel
+- No monitoring or alerts yet

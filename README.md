@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Proxmox installed and updated, next: Immich
+> **Status:** Proxmox running, Immich VM prepared with Docker installed. Next: Immich.
 
 ## Plan
 
@@ -47,4 +47,5 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 ## Notes
 
 - 13 Nov 2026: Hardware arrived and passed health checks. [Details in hardware.md](docs/hardware.md)
-- 14 Nov 2026: Installed Proxmox VE on the SSD and switched to the no-subscription repository. Updated the system. First refresh failed with an error because the enterprise repository needs a paid subscription.
+- 14 Nov 2026: [Installing and securing Proxmox](docs/proxmox-install.md)
+- 15 Nov 2026: [Preparing the Immich VM](docs/immich-vm.md)

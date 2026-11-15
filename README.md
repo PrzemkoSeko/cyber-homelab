@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Proxmox running, Immich VM prepared with Docker installed. Next: Immich.
+> **Status:** Run Immich in a VM with Docker
 
 ## Plan
 
@@ -17,7 +17,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 - [X] Buy the hardware
 - [X] Check the hardware (drive health, RAM test, BIOS)
 - [X] Install Proxmox
-- [ ] Run Immich in a VM with Docker
+- [X] Run Immich in a VM with Docker
 - [ ] Set up Tailscale for remote access (no router ports opened)
 - [ ] Set up encrypted backups to an external drive
 - [ ] Test restoring a backup
@@ -49,3 +49,4 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 - 13 Nov 2026: Hardware arrived and passed health checks. [Details in hardware.md](docs/hardware.md)
 - 14 Nov 2026: [Installing and securing Proxmox](docs/proxmox-install.md)
 - 15 Nov 2026: [Preparing the Immich VM](docs/immich-vm.md)
+- 15 Nov 2026: Immich running in Docker Compose. Database on the SSD, photo library on the HDD disk.

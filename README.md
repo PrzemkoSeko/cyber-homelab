@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Immich running on the local network. Next: Tailscale for remote access, then encrypted backups.
+> **Status:** Immich running, reachable remotely through Tailscale. Next: encrypted backups and a restore test.
 
 ## Plan
 
@@ -50,3 +50,4 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 - 14 Nov 2026: [Installing and securing Proxmox](docs/proxmox-install.md)
 - 15 Nov 2026: [Preparing the Immich VM](docs/immich-vm.md)
 - 15 Nov 2026: Immich running in Docker Compose. Database on the SSD, photo library on the HDD disk.
+- 15 Nov 2026: Tailscale installed on the Immich VM only (not on Proxmox). Tested access from my phone over mobile data with no router ports opened.

@@ -18,7 +18,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 - [X] Check the hardware (drive health, RAM test, BIOS)
 - [X] Install Proxmox
 - [X] Run Immich in a VM with Docker
-- [ ] Set up Tailscale for remote access (no router ports opened)
+- [X] Set up Tailscale for remote access (no router ports opened)
 - [ ] Set up encrypted backups to an external drive
 - [ ] Test restoring a backup
 - [ ] Write a short note on how I secured it

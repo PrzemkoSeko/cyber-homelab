@@ -9,6 +9,7 @@ Create a VM that will run Immich with Docker, with the OS and database on the SS
 3. Formatted the 800 GB disk as ext4 and mounted it at `/mnt/photos` through `/etc/fstab`, using the disk's UUID.
 4. Gave the VM a fixed IP address by editing `/etc/network/interfaces`.
 5. Installed Docker Engine from Docker's official apt repository and tested it with `hello-world`.
+6. Set the VM to start at boot in Proxmox, so everything comes back by itself after a power cut or restart.
 
 ## Problems
 - After rebooting, the disk names swapped (the photo disk went from `sdb` to `sda`). It still mounted correctly because the entry uses the UUID.

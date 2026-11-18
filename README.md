@@ -20,7 +20,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 - [X] Run Immich in a VM with Docker
 - [X] Set up Tailscale for remote access (no router ports opened)
 - [x] Give a second user access (non-admin account, only the Immich machine shared)
-- [ ] Set up encrypted backups to an external drive
+- [X] Set up encrypted backups to an external drive
 - [ ] Test restoring a backup
 - [ ] Write a short note on how I secured it
 - [ ] Add monitoring (Uptime Kuma) with phone alerts

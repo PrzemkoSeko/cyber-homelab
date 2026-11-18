@@ -1,10 +1,10 @@
 # Installing and securing Proxmox
 
 ## Goal
-Install Proxmox VE on the SSD and get it updated and secured.
+Install Proxmox VE 9 on the SSD and get it updated and secured.
 
 ## What I did
-1. Booted the installer from a USB stick and installed on the 256 GB SSD, leaving the 1 TB HDD alone.
+1. Booted the installer from a USB stick and installed on the 256 GB SSD, which erased the Windows 11 that came with the PC. I left the 1 TB HDD alone.
 2. Set a fixed IP address outside the router's DHCP range. I couldn't access the router's admin page, so I chose an address and checked with `ping` and `arp -a` that nothing used it.
 3. Switched the update repositories: disabled the enterprise repositories and enabled the no-subscription one.
 4. Updated the system.

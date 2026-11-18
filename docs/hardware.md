@@ -16,7 +16,7 @@
 | Part | Details |
 |---|---|
 | External HDD | Seagate Expansion Portable 2TB USB 3.0 Gen. 1 |
-| Encryption | LUKS (planned) |
+| Encrypted restic repository |
 
 ## Health checks
 

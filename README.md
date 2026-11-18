@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Immich running and reachable remotely through Tailscale, with encrypted backups that I have tested by restoring. Next: monitoring and alerts, then the security lab.
+> **Status:** Backups works
 
 ## Plan
 
@@ -55,4 +55,4 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 
 ## Current limitations
 
-- No monitoring or alerts yet
+- Backups are started by hand once a week, and the backup drive is in the same house as the server.

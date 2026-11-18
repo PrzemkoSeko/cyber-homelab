@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Immich running and reachable remotely through Tailscale, with a second user. Next: encrypted backups. Until they work, original photos stay on the phones.
+> **Status:** Immich running and reachable remotely through Tailscale, with encrypted backups that I have tested by restoring. Next: monitoring and alerts, then the security lab.
 
 ## Plan
 
@@ -14,14 +14,14 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 ## Progress
 
 **Photo server**
-- [X] Buy the hardware
-- [X] Check the hardware (drive health, RAM test, BIOS)
-- [X] Install Proxmox
-- [X] Run Immich in a VM with Docker
-- [X] Set up Tailscale for remote access (no router ports opened)
+- [x] Buy the hardware
+- [x] Check the hardware (drive health, RAM test, BIOS)
+- [x] Install Proxmox
+- [x] Run Immich in a VM with Docker
+- [x] Set up Tailscale for remote access (no router ports opened)
 - [x] Give a second user access (non-admin account, only the Immich machine shared)
-- [X] Set up encrypted backups to an external drive
-- [X] Test restoring a backup
+- [x] Set up encrypted backups to an external drive
+- [x] Test restoring a backup
 - [ ] Add monitoring (Uptime Kuma) with phone alerts
 - [ ] Add an alert for failed backups
 
@@ -49,10 +49,10 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 - 13 Nov 2026: Hardware arrived and passed health checks. [Details in hardware.md](docs/hardware.md)
 - 14 Nov 2026: [Installing and securing Proxmox](docs/proxmox-install.md)
 - 15 Nov 2026: [Preparing the Immich VM](docs/immich-vm.md)
-- 15 Nov 2026: Immich running in Docker Compose. Database on the SSD, photo library on the HDD disk.
-- 15 Nov 2026: Tailscale installed on the Immich VM only (not on Proxmox), tested from a phone over mobile data. A second user got her own Immich account and access to the Immich machine only, with no router ports opened.
+- 15 Nov 2026: Immich running in Docker Compose, and Tailscale set up for remote access with no router ports opened.
 - 18 Nov 2026: [Encrypted backups and restore test](docs/backups.md)
+- 18 Nov 2026: [Encrypted backups and restore test](docs/backups.md). Backup script: [scripts/backup.sh](scripts/backup.sh)
+
 ## Current limitations
 
-- No backup of the photo library yet (planned: encrypted external drive)
 - No monitoring or alerts yet

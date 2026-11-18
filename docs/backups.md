@@ -52,7 +52,6 @@ Planned: a weekly reminder on my phone, so it doesn't depend on me remembering.
 - **The database dump folder was empty.** Immich creates dumps at a scheduled time, and my server had been off at that time. I only noticed because I looked inside the folder before trusting the backup. I created a dump manually and moved the schedule to midnight, when the server is on.
 - **tmux printed odd text into the shell.** It asked my terminal for its background colour and the reply landed on the command line. It was harmless, but the command hadn't run, so I ran the backup without tmux.
 - **The first restore comparison failed.** The restore folder didn't exist yet, so `diff` had nothing to compare. I had skipped the restore command. The next run passed.
-- **Permission denied when listing the restored folder.** The files belong to root, so the command needed `sudo`.
 - **Disk names change between reboots.** The photo disk, system disk and backup drive swap between `sda`, `sdb` and `sdc`. This is why every mount uses a UUID instead of a device name.
 
 ## What I learned

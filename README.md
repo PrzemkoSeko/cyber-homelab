@@ -56,5 +56,4 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 ## Current limitations
 
 - No backup of the photo library yet (planned: encrypted external drive)
-- Immich is served over HTTP, but only through Tailscale's encrypted tunnel
 - No monitoring or alerts yet

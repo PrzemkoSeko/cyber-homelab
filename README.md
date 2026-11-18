@@ -21,7 +21,7 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 - [X] Set up Tailscale for remote access (no router ports opened)
 - [x] Give a second user access (non-admin account, only the Immich machine shared)
 - [X] Set up encrypted backups to an external drive
-- [ ] Test restoring a backup
+- [X] Test restoring a backup
 - [ ] Write a short note on how I secured it
 - [ ] Add monitoring (Uptime Kuma) with phone alerts
 - [ ] Add an alert for failed backups

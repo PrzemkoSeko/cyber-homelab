@@ -52,7 +52,7 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 - 15 Nov 2026: [Preparing the Immich VM](docs/immich-vm.md)
 - 15 Nov 2026: Immich running in Docker Compose. Database on the SSD, photo library on the HDD disk.
 - 15 Nov 2026: Tailscale installed on the Immich VM only (not on Proxmox), tested from a phone over mobile data. A second user got her own Immich account and access to the Immich machine only, with no router ports opened.
-
+- 18 Nov 2026: [Encrypted backups and restore test](docs/backups.md)
 ## Current limitations
 
 - No backup of the photo library yet (planned: encrypted external drive)

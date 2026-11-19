@@ -52,7 +52,7 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 - 15 Nov 2026: Immich running in Docker Compose, and Tailscale set up for remote access with no router ports opened.
 - 18 Nov 2026: [Encrypted backups and restore test](docs/backups.md)
 - 18 Nov 2026: [Encrypted backups and restore test](docs/backups.md). Backup script: [scripts/backup.sh](scripts/backup.sh)
-
+- 19 Nov 2026: Updated Immich 3.4.1 to 3.4.2 after a backup
 ## Current limitations
 
 - Backups are started by hand once a week, and the backup drive is in the same house as the server.

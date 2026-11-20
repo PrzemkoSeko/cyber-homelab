@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Weekly backup of the Immich photo library to the external drive.
 # Run on the Immich VM with the backup drive plugged in.
 # Needs the restic password in /etc/restic-password and the Uptime Kuma

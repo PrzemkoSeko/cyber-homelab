@@ -19,4 +19,7 @@ restic -r "$REPO" --password-file "$PASS" check --read-data-subset=5%
 echo "Unmounting..."
 umount /mnt/backup
 
+echo "Telling Uptime Kuma the backup worked..."
+curl -fsS -m 10 --retry 3 "$(cat /etc/kuma-push-url)" > /dev/null || echo "Warning: could not reach Uptime Kuma"
+
 echo "Done. You can unplug the drive now."

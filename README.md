@@ -53,6 +53,9 @@ Full setup: [docs/hardware.md](docs/hardware.md)
 - 18 Nov 2026: [Encrypted backups and restore test](docs/backups.md)
 - 18 Nov 2026: [Encrypted backups and restore test](docs/backups.md). Backup script: [scripts/backup.sh](scripts/backup.sh)
 - 19 Nov 2026: Updated Immich 3.4.1 to 3.4.2 after a backup
+- Add entries for 19 Nov (updated Immich 3.4.1 to 3.4.2 after a backup, and set up Uptime Kuma).
+
 ## Current limitations
 
 - Backups are started by hand once a week, and the backup drive is in the same house as the server.
+- Monitoring runs on the same server, so it can't warn me if the whole machine is down.

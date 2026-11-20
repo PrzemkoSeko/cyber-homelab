@@ -22,8 +22,8 @@ I'll run everything on one used Dell OptiPlex using Proxmox. The project has two
 - [x] Give a second user access (non-admin account, only the Immich machine shared)
 - [x] Set up encrypted backups to an external drive
 - [x] Test restoring a backup
-- [ ] Add monitoring (Uptime Kuma) with phone alerts
-- [ ] Add an alert for failed backups
+- [x] Add monitoring (Uptime Kuma) with phone alerts
+- [x] Add an alert for failed backups
 
 **Security lab**
 - [ ] Create an isolated lab network

@@ -2,7 +2,7 @@
 
 My first homelab project. I'm an IT student learning cybersecurity, and I'm building this to learn by doing and to document what I learn.
 
-> **Status:** Backups works
+> **Status:** Photo server running with tested encrypted backups, monitoring and phone alerts. Next: hardening, then the security lab.
 
 ## Plan
 
